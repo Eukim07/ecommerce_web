@@ -1,6 +1,6 @@
 <?php
 session_start();
-// include("config/db.php"); // Uncomment when database is populated
+$_SESSION['user'] = "Kimani";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -225,7 +225,8 @@ session_start();
             <?php endif; ?>
         </div>
     </header>
-
+<h2 style="text-align: center;">Welcome to Eukim Motors
+</h2>
     <!-- PREMIUM HERO PRESENTATION -->
     <section class="hero-showroom">
         <div class="container">
